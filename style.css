@@ -1,0 +1,40 @@
+
+:root{
+    /*Cores Primárias*/
+    --amarelo-color: #FFB854;
+    --goiaba-color: #EA8079;
+    --pink-color:#DB5D79;
+    --azul-color:#84B8E2;
+    --verde-escuro-color: #68BFB7;
+
+    /*LInks*/
+    --link-goiaba: #E2645A;;
+    --link-verde-agua:#86D0CB;
+
+    /*texto*/
+    --cinza-escuro: #585858;
+    --cinza-claro: #9B9A9A;
+
+    /* Sombra*/
+    --sombra: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+    /* Textos*/
+    --texto:'Lato', sans-serif;
+    /*apenas para Título*/
+    --titulo-text: 'Merriweather', serif;
+}
+.header img{
+    width: 20px;
+}
+header{
+    background-color:  white;
+}
+ul a{
+    font-family:titulo-text;
+    font-weight:bold;
+    font-size:24px;
+    color: var(--cinza-escuro) !important;
+}
+.sidebar-right{
+    width: 275px;
+}
