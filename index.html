@@ -7,16 +7,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.min.css">ß
     <title>Dashboard - Lejour</title>
 </head>
 
 <body>
 
+<div class="container-lejour">
+
   <nav class="navbar navbar-expand-lg fixed-top flex-md-nowrap nav-topo">
     <a class="navbar-brand ml-4 col-sm-3 col-md-2" href="#"><img src="./assets/logo/logo-branco.png" alt=""></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <button class="navbar-toggler btn-outline-danger" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
       <span class="navbar-toggler-icon"></span>
     </button>
   
@@ -81,26 +83,37 @@
   </ul>
 
   <div class="main-content">
-    <div class="card card-central">
-      <div class="card-body">
-        <img src="./assets/Menu/negocios.png" alt="">
-        <h5 class="card-title">Churn Clientes Proximos a rejeicao</h5>
-        <img src="./assets/Menu/perfil.png" alt="">
-        <span>Usuario</span>
-        <img src="./assets/Dashboar" alt="">
-      </div>
-    </div>
-  
-    <div class="card card-central">
+    <div class="row">
+      <div class="card col-md-6 card-central">
         <div class="card-body">
           <img src="./assets/Menu/negocios.png" alt="">
+          <h5 class="card-title">Churn Clientes Proximos a rejeicao</h5>
+          <img src="./assets/Menu/perfil.png" alt="">
+          <span>Usuario</span>
+        </div>
+      </div>
+    
+      <div class="card col-md-6 card-central">
+          <div class="card-body">
+            <img src="./assets/Dashboard/orçamento.png" alt="">
+            <h5 class="card-title">Churn Clientes Proximos a rejeicao</h5>
+            <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+            <a href="#" class="btn btn-primary">Visitar</a>
+          </div>
+      </div>
+  
+      <div class="card col-md-12 card-central">
+        <div class="card-body">
+          <img src="./assets/Dashboard/orçamento.png" alt="">
           <h5 class="card-title">Churn Clientes Proximos a rejeicao</h5>
           <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
           <a href="#" class="btn btn-primary">Visitar</a>
         </div>
     </div>
+    </div>
   </div>
 
+</div>
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

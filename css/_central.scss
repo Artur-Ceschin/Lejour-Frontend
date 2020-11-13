@@ -1,0 +1,20 @@
+@import 'colors';
+
+.categoria{
+    margin-top:80px;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid $texto-cinza-escuro;
+    border-radius: 46px;
+  }    
+  .card-central{
+    margin: 30px 50px 0 300px;
+    box-shadow: 0px 3px 10px rgba(88, 88, 88, 0.1), 0px 16px 31px rgba(88, 88, 88, 0.1);
+    border-radius: 36px;
+  }
+  .card-central img{
+    width: 30px;
+  }
